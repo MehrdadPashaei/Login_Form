@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+<div class="container">
+    <div class="container-head">
+        <h1 class="title">LOGIN</h1>
+        <p class="info">LANDING PAGE</p>
+    </div>
+    <div class="form-box">
+        <label id="user-user" class="label">
+            <input class="input error" onchange="validateUsername()" placeholder="user-name">
+        </label>
+<!--        <span class="error-text"></span>-->
+        <label id="user-email" class="label">
+            <input class="input error" onchange="validateEmail()" placeholder="email">
+        </label>
+<!--        <span class="error-text"></span>-->
+        <label id="user-pass" class="label">
+            <input class="input error" onchange="validatePassword()" placeholder="password">
+        </label>
+<!--        <span class="error-text"></span>-->
+    </div>
+    <button class="btn">
+        Login
+    </button>
+    <a id="#" class="create-acc"> create account ? </a>
+</div>
+
+<script src="./js/js.js">
+
+</script>
+</body>
+</html>

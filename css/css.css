@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'hind',sans-serif;
+}
+body{
+    background-image: url("../images/bg1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.title{
+    font-size: 5rem;
+
+}
+.info{
+    font-size: 3rem;
+
+}
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    gap: 40px;
+    /*border: 1px dotted;*/
+}
+.label{
+    width: 70%;
+
+}
+.input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #884B92 ,yellow , yellow) ;
+    font-size: 2rem;
+    border: none;
+    padding-left: 20px;
+}
+
+.input:focus {
+    width: 320px;
+    border-color: #4d4dff;
+}
+
+.input.error {
+    border: 2px solid red;
+}
+
+.label.error .error-text {
+    color: red;
+    font-size: 1.4rem;
+    margin-top: 5px;
+}
+
+.btn{
+    background-image: linear-gradient(to left, #884B92 ,#884B92 , #884B92) ;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.create-acc{
+    padding-top: 6px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    cursor: pointer;
+}
